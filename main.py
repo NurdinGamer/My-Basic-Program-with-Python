@@ -2,7 +2,7 @@ import os
 
 os.system("cls")
 
-def main():
+def main(atk, enemy_atk, training_count):
     print("WELCOME TO THE GAME SIMULATOR PROGRAM")
     enemy_atk = 2
     atk = 1
@@ -19,9 +19,6 @@ def main():
         print("2.Training")
         print("3.Status")
         print("4.Quit")
-        print(win_count)
-        print(lose_count)
-        print(training_count)
 
         data = str(input("Choose (1/2/3/4): "))
 
