@@ -2,7 +2,7 @@ import os
 
 os.system("cls")
 
-def main(atk, enemy_atk, training_count):
+def main():
     print("WELCOME TO THE GAME SIMULATOR PROGRAM")
     enemy_atk = 2
     atk = 1
